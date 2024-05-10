@@ -1,0 +1,16 @@
+alias art="php artisan"
+alias at="php artisan tinker"
+alias vr="valet restart"
+alias vl="valet links"
+alias mrt="php artisan migrate:refresh --env="testing""
+alias mft="php artisan migrate:fresh --env="testing""
+alias mr="php artisan migrate:refresh"
+alias mf="php artisan migrate:fresh"
+alias m="php artisan migrate"
+alias dbs="php artisan db:seed"
+alias dbst="php artisan db:seed --env=testing"
+alias ci="composer install"
+alias cgi="composer global install"
+alias new='cp ~/Daily\ Work\ Journal/template.md ~/Daily\ Work\ Journal/posts/$(date +%Y-%m-%d_%H:%M:%S).md'
+alias art-cc='php artisan cache:clear && php artisan config:clear && php artisan event:clear && php artisan optimize:clear && php artisan route:clear && php artisan config:cache;'
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"

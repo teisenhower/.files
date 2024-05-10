@@ -1,0 +1,14 @@
+[user]
+	name = Terrence Eisenhower
+	email = terrence@teisenhower.dev
+	signingkey = /Users/terrence/.ssh/id_mile6.pub
+[core]
+[crednetial]
+	helper = manager
+[credential]
+	helper = manager
+[commit]
+	gpgsign = true
+	sshsign = true
+[gpg]
+	format = ssh
